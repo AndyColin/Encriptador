@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> AC Encriptador</title>
+    <link rel="stylesheet" href="diseño.css">
+    
+</head>
+<body>
+    <main class="presentacion">
+        <section class="presentacion__contenido">
+         <h1>Todo listo para encriptar tu Texto</h1>
+        </section>
+    
+    <textarea id="inputText" placeholder="Ingresa tu texto aquí:"></textarea>
+    <div>
+        <button onclick="encryptText()">Encriptar</button>
+        <button onclick="decryptText()">Desencriptar</button>
+    </div>
+    <textarea id="outputText" readonly placeholder="Aquí tu texto encriptado:"></textarea>
+    <button onclick="copyText()">Copiar</button>
+    <footer class="footer">
+        <p>Powered by Andy Colin</p>
+    </footer>
+    <script src="mia.js"></script>
+
+
+</body>
+</html>
